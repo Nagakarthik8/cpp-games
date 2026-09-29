@@ -56,6 +56,6 @@ int main(){
     cout << "Want to play again(Yes/No):" ;
     cin >> rematch;
 }while(rematch == "Yes" || rematch == "yes" || rematch == "YES");
-cout << "Thanks for playing" << endl;
+cout << "Thank you for playing" << endl;
 return 0;
 }
