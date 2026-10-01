@@ -2,6 +2,7 @@
 #include<random>
 using namespace std;
 int main(){
+        cout << "************************* Dice rolling Game ******************************\n";
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<int> dice(1,6);
