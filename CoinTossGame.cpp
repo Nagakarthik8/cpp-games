@@ -3,6 +3,7 @@
 #include<vector>
 using namespace std;
 int main(){
+    cout << "************************* CoinToss Game ******************************\n";
     string rematch;
     random_device rd;
     mt19937 gen(rd());
