@@ -4,6 +4,7 @@
 #include<string>
 using namespace std;
 int main(){
+        cout << "************************* Rock Paper Scissors Game ******************************\n";
     int per;
     int comp,rounds;
     string rematch;
@@ -14,7 +15,6 @@ int main(){
     do{
         per = 0;
         comp = 0;
-    cout << "----------Welcome to this ROCK - PAPER - SCISSORS game--------" << endl;
     cout << "Want to play how many rounds:";
     cin >> rounds;
     int temp = rounds;

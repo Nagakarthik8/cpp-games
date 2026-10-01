@@ -38,10 +38,10 @@ void playGame(int chances, int maxnumber)
 }
 int main()
 {
+        cout << "************************* Number Guess Game ******************************\n";
     string rematch;
     do{
     int n;
-    cout << "--------- NUMBER GUESS GAME -----------" << endl;
     cout << "1. Easy" << endl;
     cout << "2. Medium" << endl;
     cout << "3. Hard" << endl;
