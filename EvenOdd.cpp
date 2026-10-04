@@ -18,7 +18,7 @@ int main(){
                 if(rounds == 0){
                     cout << "\nInvalid ! Enter again";
                 }
-            }while(rounds == 0);
+            }while(rounds <= 0);
             int pscore = 0;
             int cscore = 0;
             int correct = 0;
@@ -66,7 +66,7 @@ int main(){
             cout << "\nIncorrect answer : " << incorrect;
             cout << "\nYours score : " << pscore;
             cout << "\nComputer score : " << cscore;
-            float accuracy = (float)correct / rounds * 100;
+            float accuracy = (float)correct / temp1 * 100;
             cout << "\nAccuracy percentage : " << accuracy << "%" << endl;
             if(pscore > cscore){
                 cout << "\nCongratulation You won!";
